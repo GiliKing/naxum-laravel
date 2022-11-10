@@ -19,7 +19,7 @@ class RankController extends Controller
         /* this logic is to get invoice, purchaser and distributor */
 
         // this are the orders made by customers
-        $orders = Order::filter(request(['order_date']))->simplepaginate(10);
+        $orders = Order::filter(request(['order_date']))->simplepaginate(100);
 
         // this is a temporary storage that stores the distributor who referred a customer
         $GLOBALS['distributor'] = [];

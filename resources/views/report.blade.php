@@ -33,7 +33,7 @@
 
     {{-- @vite(['resources/css/app.css', 'resource/js/app.js']) --}}
 
-    <link rel="stylesheet" href="{{ asset('csp/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('https://naxum-parta.herokuapp.com/csp/style.css') }}">
 
 </head>
 <body>
@@ -113,7 +113,7 @@
     @include('partials.help');
 
 
-    <script src="{{ asset('jp/jquery.js') }}"></script>
+    <script src="{{ asset('https://naxum-parta.herokuapp.com/jp/jquery.js') }}"></script>
 
     @for ($l = 0; $l < count($reports); $l++)
         <script>
