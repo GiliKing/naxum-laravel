@@ -11,7 +11,6 @@
         <table class="table">
             <thead>
               <tr>
-                <th>ID</th>
                 <th>SKU</th>
                 <th>Product Name</th>
                 <th>Price</th>
